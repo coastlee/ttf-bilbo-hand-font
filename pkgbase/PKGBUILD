@@ -1,0 +1,15 @@
+# Maintainer: Jimmy Purdue <jimmy.purdue@protonmail.com>
+
+pkgname=ttf-bilbo-hand-font
+pkgver=0
+pkgrel=0
+pkgdesc="Bilbo Hand font from dafont"
+arch=('any')
+url='https://www.dafont.com/bilbo-hand.font'
+license=('None')
+source=('https://dl.dafont.com/dl/?f=bilbo_hand')
+md5sums=('SKIP')
+
+package() {
+    install -Dm644 ${srcdir}/bilboregular.ttf ${pkgdir}/usr/share/fonts/TTF/bilboregular.ttf
+}

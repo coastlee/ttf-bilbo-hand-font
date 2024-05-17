@@ -1,0 +1,14 @@
+pkgbase = pkgbase
+	pkgdesc = Bilbo Hand font from dafont.com
+	pkgver = latest
+	pkgrel = 1
+	url = https://github.com/coastlee/ttf-bilbo-hand-font
+	arch = x86_64
+	license = None
+	depends = git
+	provides = ttf-bilbo-hand-font
+	conflicts = ttf-bilbo-hand-font
+	source = git+https://github.com/coastlee/ttf-bilbo-hand-font
+	sha256sums = SKIP
+
+pkgname = ttf-bilbo-hand-font
